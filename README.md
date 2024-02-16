@@ -1,6 +1,6 @@
 # Dev Portfolio
 
-Dev Portfolio is a comprehensive web development project that includes both frontend and backend components for showcasing your developer portfolio and managing related data.
+Dev Portfolio is a comprehensive web development project that includes both frontend and backend components for showcasing my developer experience and managing related data.
 
 ## Overview
 
