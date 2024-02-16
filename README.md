@@ -6,7 +6,7 @@ Dev Portfolio is a comprehensive web development project that includes both fron
 
 Dev Portfolio comprises:
 
-- **Frontend**: Developed using Next.js and Tailwind CSS, the frontend provides an intuitive and responsive user interface for showcasing your projects, skills, and achievements.
+- **Frontend**: Developed using Next.js and Tailwind CSS, the frontend provides an intuitive and responsive user interface for showcasing my projects, skills, and achievements.
 
 - **Backend**: Powered by FastAPI with Python, the backend serves as the engine for managing user data, projects, and other portfolio-related information. It utilizes AWS RDS (Relational Database Service) with MySQL to store and retrieve data efficiently.
 
@@ -18,7 +18,7 @@ Dev Portfolio comprises:
 
 - **AWS RDS / MySQL Integration**: 
 
-The MySQL database within AWS RDS houses various tables designed to store essential data related to your portfolio, including:
+The MySQL database within AWS RDS houses various tables designed to store essential data related to my portfolio, including:
 
 - **Posts**: Stores information about portfolio posts, including titles, content, authors, timestamps, etc.
 - **Projects**: Contains details about the projects, such as project names, descriptions, technologies used, etc.
