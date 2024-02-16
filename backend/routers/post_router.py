@@ -36,7 +36,10 @@ async def read_post(post_id: int, db: Session = db_dependency):
         raise HTTPException(status_code=404, detail='Post not found')
     return post
 
-# @router.get("/posts", response_model=List[models.Post], status_code=status.HTTP_200_OK)
-# async def get_all_posts(db: Session = db_dependency):
-#     posts = db.query(models.Post).all()
-#     return posts
+
+@router.get("/posts/", status_code=status.HTTP_200_OK)
+async def get_all_posts(db: Session = db_dependency):
+    posts = db.query(models.Post).all()
+    if posts is None:
+        raise HTTPException(status_code=404, detail='Posts not found')
+    return posts
