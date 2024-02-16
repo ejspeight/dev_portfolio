@@ -80,3 +80,8 @@ To spin up the backend server:
 ```console
 uvicorn main:app --reload
 ```
+
+## Contact
+
+Feel free to connect with me on [LinkedIn](https://www.linkedin.com/in/edward-speight/) for any inquiries or collaborations.
+
