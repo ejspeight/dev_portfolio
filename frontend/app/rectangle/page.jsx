@@ -1,6 +1,6 @@
 import Link from "next/link";
 import React from "react";
-import { FiArrowRight, FiCopy } from "react-icons/fi";
+import { FiArrowRight } from "react-icons/fi";
 import { BsChevronRight } from "react-icons/bs";
 import Footer from "../components/Footer";
 

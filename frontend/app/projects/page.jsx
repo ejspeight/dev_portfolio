@@ -1,12 +1,10 @@
 import Link from "next/link";
 import React from "react";
 import { BsChevronRight } from "react-icons/bs";
-import { FiArrowRight, FiCopy } from "react-icons/fi";
-import { AiOutlinePlusCircle, AiOutlineDribbble } from "react-icons/ai";
-import { FaLinkedinIn } from "react-icons/fa";
-import { CiLocationArrow1, CiTwitter, CiInstagram } from "react-icons/ci";
-
+import { FiArrowRight} from "react-icons/fi";
+import { CiLocationArrow1 } from "react-icons/ci";
 import Footer from "../components/Footer";
+
 // import { BsChevronRight } from "react-icons/bs";
 
 const links = [
