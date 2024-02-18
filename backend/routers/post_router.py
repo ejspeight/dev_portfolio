@@ -1,10 +1,10 @@
 from fastapi import APIRouter, HTTPException, Depends, status, Depends
 from sqlalchemy.orm import Session
 from pydantic import BaseModel
-from typing import List, Annotated
+from database import SessionLocal
+from .auth_router import verify_api_key
 import models
 import logging
-from database import SessionLocal
 
 
 router = APIRouter()
@@ -24,8 +24,9 @@ class PostBase(BaseModel):
 
 db_dependency = Depends(get_db)
 
+
 @router.post("/posts/", status_code=status.HTTP_201_CREATED)
-async def create_post(post: PostBase, db: Session = db_dependency):
+async def create_post(post: PostBase, db: Session = db_dependency, auth: None = Depends(verify_api_key)):
     try:
         db_post = models.Post(**post.dict())
         db.add(db_post)
@@ -34,7 +35,7 @@ async def create_post(post: PostBase, db: Session = db_dependency):
         return db_post
     except Exception as error:
         logger.exception('An error occurred while creating the post')
-        raise HTTPException(status_code=500, details = 'Internal server error')
+        raise HTTPException(status_code=500, details='Internal server error')
     
 
 @router.get("/posts/{post_id}", status_code=status.HTTP_200_OK)
@@ -59,3 +60,4 @@ async def get_all_posts(db: Session = db_dependency):
     except Exception as error:
         logger.exception('An error occurred while retrieving all posts')
         raise HTTPException(status_code=500, details = 'Internal server error')
+    
