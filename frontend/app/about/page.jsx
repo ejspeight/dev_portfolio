@@ -5,18 +5,17 @@ import { CiLocationArrow1 } from "react-icons/ci";
 import { BsChevronRight } from "react-icons/bs";
 import Link from "next/link";
 import { motion } from "framer-motion";
-
 import Footer from "../components/Footer";
 
 const projects = [
   {
-    img: "/img/pizza.png",
+    img: "/img/foot.png",
     title: "Project 1",
     subtitle: "Lorem ipsum dolor sit amet",
     icon: <BsChevronRight />,
   },
   {
-    img: "/img/wink.png",
+    img: "/img/foot.png",
     title: "Project 2",
     subtitle: "Lorem ipsum dolor sit amet",
   },

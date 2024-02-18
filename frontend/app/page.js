@@ -11,14 +11,14 @@ import Posts from "./components/Posts";
 
 const links = [
   {
-    img: "/img/img1.png",
+    img: "/img/foot.png",
     title: "HBF",
     subtitle: ["Data Migration, Analytics, Testing, SQL"],
     icon: <BsChevronRight />,
     href: "/rectangle",
   },
   {
-    img: "/img/wink.png",
+    img: "/img/foot.png",
     title: "IAG Developer Portal",
     subtitle: ["APIs, Serverless, Front-End"],
     href: "/morvalabs",
@@ -29,25 +29,6 @@ const links = [
     subtitle: ["Front-End Dev, Automation UI testing, Oracle Fusion"],
     // redirect to other sites here
     href: "/simply",
-  },
-];
-
-const projects = [
-  {
-    img: "/img/pizza.png",
-    title: "Project 1",
-    subtitle: "Lorem ipsum dolor sit amet",
-    icon: <BsChevronRight />,
-  },
-  {
-    img: "/img/wink.png",
-    title: "Project 2",
-    subtitle: "Lorem ipsum dolor sit amet",
-  },
-  {
-    img: "/img/foot.png",
-    title: "Project 3",
-    subtitle: "Lorem ipsum dolor sit amet",
   },
 ];
 
