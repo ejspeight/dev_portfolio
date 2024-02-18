@@ -6,7 +6,6 @@ import { CiLocationArrow1 } from "react-icons/ci";
 import { BsChevronRight } from "react-icons/bs";
 import Link from "next/link";
 import { motion } from "framer-motion";
-import Socials from "./components/Socials";
 import Footer from "./components/Footer";
 
 const links = [
@@ -239,37 +238,7 @@ export default function Home() {
           </div>
         </div>
 
-        <div className="mt-24 p-2">
-          <div className="mx-auto max-w-md">
-            <div>
-              <h2 className=" text-4xl text-center dark:text-white text-[#353849] font-InterBo">
-                Let’s work together.
-              </h2>
-              <p className="text-center mt-3 dark:text-neutral-300 text-[#666D80] text-lg">
-                Creating user experience and visual appealing design
-              </p>
-            </div>
-
-            <div className="">
-              <div className="flex items-center gap-x-4 justify-center mt-6">
-                <div className="bg-black dark:bg-[#373737] w-fit shadow-md  px-2 rounded-md flex items-center gap-x-2 py-1">
-                  <AiOutlinePlusCircle className="text-white tex-3" />
-                  <span className="text-white  font-semibold">Hire Me</span>
-                </div>
-                <div className="border-neutral-300 shadow-md border dark:border-neutral-700  w-fit h-8 px-2 rounded-md flex items-center gap-x-2 ">
-                  <FiCopy className="" />
-                  <span className="text-neutral-700  dark:text-white font-semibold">
-                    Copy Email
-                  </span>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <Socials />
-
-          <Footer />
-        </div>
+        <Footer />
       </motion.div>
     </>
   );

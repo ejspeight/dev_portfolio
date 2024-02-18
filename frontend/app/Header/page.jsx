@@ -16,8 +16,8 @@ import { useTheme } from "next-themes";
 let links = [
   { icons: <PiHouseSimpleThin />, path: "/" },
   { icons: <PiUserLight />, path: "/about" },
-  { icons: <PiLaptopThin />, path: "/project" },
-  { icons: <PiBagSimpleLight />, path: "/product" },
+  { icons: <PiLaptopThin />, path: "/projects" },
+  { icons: <PiBagSimpleLight />, path: "/blogs" },
 ];
 
 function Headpage() {

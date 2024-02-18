@@ -1,8 +1,8 @@
 import React from "react";
-import Socials from "../components/Socials";
+
 import Footer from "../components/Footer";
 
-function page() {
+const Page = () => {
   return (
     <div className="bg-white top-24 relative dark:bg-[#212121] shadow-md rounded-xl max-w-xl lg:mx-auto mx-4 lg:max-w-xl  max-2xl  md:mx-auto sm:mx-auto lg:px-0 ">
       <div className="p-2 lg:mx-4">
@@ -66,7 +66,7 @@ function page() {
           </div>
         </div>
         
-        <Socials />
+        
         <Footer />
         
       </div>
@@ -74,4 +74,4 @@ function page() {
   );
 }
 
-export default page;
+export default Page;

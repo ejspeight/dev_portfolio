@@ -7,7 +7,7 @@ import { FiCopy } from "react-icons/fi";
 import { AiOutlinePlusCircle } from "react-icons/ai";
 import { CiLocationArrow1 } from "react-icons/ci";
 import { motion } from "framer-motion";
-import Socials from "../components/Socials";
+
 import Footer from "../components/Footer";
 
 const links = [
@@ -52,7 +52,7 @@ const projects = [
   },
 ];
 
-function page() {
+const Page = () => {
   return (
     <motion.div
       initial={{ x: 1000 }}
@@ -63,7 +63,7 @@ function page() {
         <div className="flex items-center mt-4 px-6  gap-x-2 ">
           <div className="w-[6px] h-[6px] rounded-full  bg-[#6b6b6b]" />
           <h1 className="text-neutral-700   dark:text-[#C0C0C0] text-lg font-InterMe">
-            Posts
+            Blogs
           </h1>
         </div>
 
@@ -82,7 +82,7 @@ function page() {
             <div className="flex items-center gap-x-2 font-InterRe">
               <div className="w-[6px] h-[6px] rounded-full  bg-[#6b6b6b]" />
               <h1 className="text-neutral-700 dark:text-[#C0C0C0] text-lg font-InterMe">
-                Products
+                Posts
               </h1>
             </div>
 
@@ -122,40 +122,11 @@ function page() {
           </div>
         </div>
 
-        <div className="mt-24 lg:p-2 ">
-          <div className="mx-auto max-w-md">
-            <div>
-              <h2 className=" text-4xl text-center dark:text-white text-[#353849] font-InterBo">
-                Let’s work together.
-              </h2>
-              <p className="text-center mt-3 dark:text-neutral-300 text-[#666D80] text-lg">
-                Creating user experience and visual appealing design
-              </p>
-            </div>
-
-            <div className="">
-              <div className="flex items-center gap-x-4 justify-center mt-6">
-                <div className="bg-black dark:bg-[#373737] w-fit shadow-md  px-2 rounded-md flex items-center gap-x-2 py-1">
-                  <AiOutlinePlusCircle className="text-white tex-3" />
-                  <span className="text-white  font-semibold">Hire Me</span>
-                </div>
-                <div className="border-neutral-300 dark:border-neutral-700 shadow-md border  w-fit h-8 px-2 rounded-md flex items-center gap-x-2 ">
-                  <FiCopy className="" />
-                  <span className="text-neutral-700  dark:text-white font-semibold">
-                    Copy Email
-                  </span>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <Socials />
-          <Footer />
+        <Footer />
           
-        </div>
       </div>
     </motion.div>
   );
 }
 
-export default page;
+export default Page;
