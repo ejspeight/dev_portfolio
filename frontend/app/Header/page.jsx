@@ -20,7 +20,7 @@ let links = [
   { icons: <PiBagSimpleLight />, path: "/blogs" },
 ];
 
-function Headpage() {
+const Headpage = () => {
   const pathname = usePathname() || "";
   const [hoveredPath, setHoveredPath] = useState(pathname);
   const { theme, systemTheme, setTheme } = useTheme();

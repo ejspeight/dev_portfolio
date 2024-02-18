@@ -6,14 +6,14 @@ import Footer from "../components/Footer";
 
 const links = [
   {
-    img: "/img/img1.png",
+    img: "/img/foot.png",
     title: "HBF",
     subtitle: ["Data Migration, Analytics, Testing, SQL"],
     icon: <BsChevronRight />,
     href: "/rectangle",
   },
   {
-    img: "/img/wink.png",
+    img: "/img/foot.png",
     title: "IAG Developer Portal",
     subtitle: ["APIs, Serverless, Front-End"],
     href: "/morvalabs",

@@ -36,7 +36,6 @@ const Footer = () => {
         <div class="bg-[#F6F8FA] p-6 dark:bg-[#2C2C2C] mt-14 rounded-md">
             <div class="flex items-center justify-between">
                 <div class="flex items-center gap-x-2 font-InterRe">
-                    <div class="w-[6px] h-[6px] rounded-full bg-[#6b6b6b]"></div>
                     <h1 class="text-neutral-700 dark:text-[#C0C0C0] text-lg font-InterMe">
                         Follow Me
                     </h1>

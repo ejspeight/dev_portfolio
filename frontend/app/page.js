@@ -44,7 +44,6 @@ export default function Home() {
           <div className=" lg:p-6 p-3">
             <div className="flex justify-between  w-full">
               <div className="flex items-center gap-x-2 font-InterRe">
-                <div className="w-[6px] h-[6px] rounded-full  bg-[#6b6b6b]" />
                 <motion.h1
                   initial={{ x: 100, opacity: 0 }}
                   animate={{
@@ -54,7 +53,7 @@ export default function Home() {
                   }}
                   className="text-neutral-700 dark:text-[#C0C0C0] max-md:text-xl font-InterMe"
                 >
-                  Full Stack Dev
+                  Full Stack Developer
                 </motion.h1>
               </div>
 
@@ -122,7 +121,6 @@ export default function Home() {
             <div className="bg-[#F6F8FA] dark:bg-[#2C2C2C] p-6 max-md:p-3 rounded-xl">
               <div className="flex items-center justify-between mt-4">
                 <div className="flex items-center gap-x-2 font-InterRe">
-                  <div className="w-[6px] h-[6px] rounded-full  bg-[#6b6b6b]" />
                   <h1 className="text-neutral-700 dark:text-[#C0C0C0] text-lg font-InterMe">
                     Projects
                   </h1>

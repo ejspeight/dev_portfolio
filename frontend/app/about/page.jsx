@@ -10,19 +10,23 @@ import Footer from "../components/Footer";
 const projects = [
   {
     img: "/img/foot.png",
-    title: "Project 1",
-    subtitle: "Lorem ipsum dolor sit amet",
+    title: "HBF",
+    subtitle: ["Data Migration, Analytics, Testing, SQL"],
     icon: <BsChevronRight />,
+    href: "/rectangle",
   },
   {
     img: "/img/foot.png",
-    title: "Project 2",
-    subtitle: "Lorem ipsum dolor sit amet",
+    title: "IAG Developer Portal",
+    subtitle: ["APIs, Serverless, Front-End"],
+    href: "/morvalabs",
   },
   {
     img: "/img/foot.png",
-    title: "Project 3",
-    subtitle: "Lorem ipsum dolor sit amet",
+    title: "AFG",
+    subtitle: ["Front-End Dev, Automation UI testing, Oracle Fusion"],
+    // redirect to other sites here
+    href: "/simply",
   },
 ];
 
@@ -35,7 +39,6 @@ const Page = () => {
     >
       <div className=" lg:p-6 p-5 ">
         <div className="flex mt-4 items-center gap-x-2 font-InterRe">
-          <div className="w-[6px] h-[6px] rounded-full  bg-[#6b6b6b]" />
           <h1 className="text-neutral-700  dark:text-[#C0C0C0] text-lg font-InterMe">
             About
           </h1>

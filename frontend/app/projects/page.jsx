@@ -37,7 +37,6 @@ const Page = () => {
     <div className="bg-white top-24 relative dark:bg-[#212121] shadow-md rounded-xl max-w-xl lg:mx-auto mx-4 lg:max-w-xl max-2xl md:mx-auto sm:mx-auto lg:px-0 ">
       <div className=" lg:p-6 p-4 max-md:p-5 ">
         <div className="flex items-center mt-4  gap-x-2 ">
-          <div className="w-[6px] h-[6px] rounded-full  bg-[#6b6b6b]" />
           <h1 className="text-neutral-700   dark:text-[#C0C0C0] text-lg font-InterMe">
             Projects
           </h1>
@@ -56,7 +55,6 @@ const Page = () => {
         <div className="bg-[#F6F8FA] dark:bg-[#2C2C2C] p-3 max-md:p-3 rounded-xl">
           <div className="flex items-center justify-between mt-4">
             <div className="flex items-center gap-x-2 font-InterRe">
-              <div className="w-[6px] h-[6px] rounded-full  bg-[#6b6b6b]" />
               <h1 className="text-neutral-700 dark:text-[#C0C0C0] text-lg font-InterMe">
                 Projects
               </h1>

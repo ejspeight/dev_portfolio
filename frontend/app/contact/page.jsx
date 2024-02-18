@@ -1,5 +1,4 @@
 import React from "react";
-
 import Footer from "../components/Footer";
 
 const Page = () => {
@@ -9,7 +8,6 @@ const Page = () => {
         <div className=" lg:p-6 p-3">
           <div className="flex justify-between  w-full">
             <div className="flex items-center gap-x-2 font-InterRe">
-              <div className="w-[6px] h-[6px] rounded-full  bg-[#6b6b6b]" />
               <h1 className="text-neutral-700 dark:text-[#C0C0C0] max-md:text-xl text-xl font-InterRe font-bold">
                 Contact Me
               </h1>
