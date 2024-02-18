@@ -7,6 +7,7 @@ import { BsChevronRight } from "react-icons/bs";
 import Link from "next/link";
 import { motion } from "framer-motion";
 import Footer from "./components/Footer";
+import Posts from "./components/Posts";
 
 const links = [
   {
@@ -192,6 +193,9 @@ export default function Home() {
               </div>
             </div>
           </div>
+
+          <Posts />
+          
           <div>
             <div className="dark:bg-[#2C2C2C] bg-[#F6F8FA] p-6  mt-6 rounded-md">
               <div className="flex items-center gap-x-2 font-InterRe">
