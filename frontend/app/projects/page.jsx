@@ -1,36 +1,8 @@
 "use client";
-
-import Link from "next/link";
 import React from "react";
-import { BsChevronRight } from "react-icons/bs";
-import { FiArrowRight} from "react-icons/fi";
 import Footer from "../components/Footer";
 import Posts from "../components/Posts";
-
-
-const links = [
-  {
-    img: "/img/foot.png",
-    title: "HBF",
-    subtitle: ["Data Migration, Analytics, Testing, SQL"],
-    icon: <BsChevronRight />,
-    href: "/rectangle",
-  },
-  {
-    img: "/img/foot.png",
-    title: "IAG Developer Portal",
-    subtitle: ["APIs, Serverless, Front-End"],
-    href: "/morvalabs",
-  },
-  {
-    img: "/img/foot.png",
-    title: "AFG",
-    subtitle: ["Front-End Dev, Automation UI testing, Oracle Fusion"],
-    // redirect to other sites here
-    href: "/simply",
-  },
-];
-
+import Projects from "../components/Projects";
 
 const Page = () => {
   return (
@@ -52,55 +24,7 @@ const Page = () => {
           </p>
         </div>
 
-        <div className="bg-[#F6F8FA] dark:bg-[#2C2C2C] p-3 max-md:p-3 rounded-xl">
-          <div className="flex items-center justify-between mt-4">
-            <div className="flex items-center gap-x-2 font-InterRe">
-              <h1 className="text-neutral-700 dark:text-[#C0C0C0] text-lg font-InterMe">
-                Projects
-              </h1>
-            </div>
-
-            <div className="border-neutral-300 dark:border-neutral-700 bg-white dark:bg-[#373737] shadow-md border  w-fit h-8 px-2 rounded-md  flex  items-center gap-x-1 ">
-              <button className="text-neutral-700 dark:text-white  text-sm font-semibold">
-                View All
-              </button>
-              <FiArrowRight className="text-neutral-500" />
-            </div>
-          </div>
-          <div className="mt-6">
-            <Link href={"/"}>
-              {links.map((link) => (
-                <div
-                  key={link.title}
-                  className="bg-white dark:bg-[#373737] mt-3  mb-4 rounded-xl  max-md:flex-col max-md:items-start flex items-center justify-between p-5 dark:border-neutral-600  shadow-md drop-shadow-md dark:border max-md:p-7 "
-                >
-                  <div className="flex items-center gap-x-4 max-md:flex-col max-md:items-start">
-                    <div className="drop-shadow-md dark:bg-neutral-900/50 bg-white  p-2 rounded-full ">
-                      <img
-                        className="w-10 h-10 object-cover rounded-full "
-                        src={link.img}
-                        alt=""
-                      />
-                    </div>
-
-                    <div className="max-md:mt-5">
-                      <h1 className="text-xl font-InterMe ">{link.title}</h1>
-                      <p className="text-lg text-neutral-400 max-md:my-1">
-                        {link.subtitle.map((subt) => (
-                          <span key={subt}>{subt}</span>
-                        ))}
-                      </p>
-                    </div>
-                  </div>
-
-                  <div className="max-md:hidden md:block">
-                    <BsChevronRight />
-                  </div>
-                </div>
-              ))}
-            </Link>
-          </div>
-        </div>
+        <Projects />
 
         <div className="lg:px-7">
           <h1 className="md:text-4xl text-3xl  font-InterBo mt-10 my-3 dark:text-white text-neutral-800">

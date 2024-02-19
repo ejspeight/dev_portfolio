@@ -1,34 +1,10 @@
 "use client";
 
 import React from "react";
-import { CiLocationArrow1 } from "react-icons/ci";
-import { BsChevronRight } from "react-icons/bs";
-import Link from "next/link";
 import { motion } from "framer-motion";
 import Footer from "../components/Footer";
+import Projects from "../components/Projects";
 
-const projects = [
-  {
-    img: "/img/foot.png",
-    title: "HBF",
-    subtitle: ["Data Migration, Analytics, Testing, SQL"],
-    icon: <BsChevronRight />,
-    href: "/rectangle",
-  },
-  {
-    img: "/img/foot.png",
-    title: "IAG Developer Portal",
-    subtitle: ["APIs, Serverless, Front-End"],
-    href: "/morvalabs",
-  },
-  {
-    img: "/img/foot.png",
-    title: "AFG",
-    subtitle: ["Front-End Dev, Automation UI testing, Oracle Fusion"],
-    // redirect to other sites here
-    href: "/simply",
-  },
-];
 
 const Page = () => {
   return (
@@ -147,41 +123,7 @@ const Page = () => {
           </motion.p>
         </div>
 
-        <div className="dark:bg-[#2C2C2C] bg-[#F6F8FA] p-4  mt-6 rounded-md">
-          <div className="">
-            <Link href={"/"}>
-              {projects.map((link) => (
-                <div
-                  key={link.subtitle}
-                  className="dark:bg-[#373737] bg-white mt-3 rounded-xl shadow-md flex  max-md:flex-col max-md:items-start items-center justify-between p-5 "
-                >
-                  <div className="flex  items-center gap-x-4">
-                    <div className="drop-shadow-md ">
-                      <img
-                        className="w-10 h-10 object-cover rounded-full "
-                        src={link.img}
-                        alt=""
-                      />
-                    </div>
-
-                    <div>
-                      <h1 className="text-xl font-InterMe">{link.title}</h1>
-                    </div>
-                  </div>
-
-                  <div className="flex max-md:mt-4 w-fit items-center gap-x-3">
-                    <p className="text-sm font-semibold uppercase text-neutral-40 bg-[#EDEFF3] dark:bg-neutral-600/50 dark:text-neutral-400 text-[#666D80]  px-2 rounded-lg ">
-                      {link.subtitle}
-                    </p>
-                    <div className="">
-                      <CiLocationArrow1 className="dark:text-neutral-400" />
-                    </div>
-                  </div>
-                </div>
-              ))}
-            </Link>
-          </div>
-        </div>
+        <Projects />
 
         <Footer />
 

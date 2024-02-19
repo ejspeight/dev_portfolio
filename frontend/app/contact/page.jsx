@@ -64,7 +64,6 @@ const Page = () => {
           </div>
         </div>
         
-        
         <Footer />
         
       </div>
