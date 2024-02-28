@@ -19,6 +19,18 @@ const Projects = () => {
         }
     };
 
+    const getLanguages = async () => {
+        try {
+            const response = await axios.get(`https://api.github.com/repos/ejspeight/dev_portfolio/languages`);
+            console.log('Launguages:', response)
+            return response.data
+        } catch (error) {
+            throw error;
+        }
+    };
+
+    getLanguages();
+
     useEffect(() => {
         const fetchData = async () => {
             try {
