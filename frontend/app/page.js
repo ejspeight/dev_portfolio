@@ -7,6 +7,7 @@ import { motion } from "framer-motion";
 import Footer from "./components/Footer";
 import Posts from "./components/Posts";
 import Projects from "./components/Projects";
+import EmailCopyButton from "./components/EmailCopyButton";
 
 
 export default function Home() {
@@ -69,12 +70,7 @@ export default function Home() {
                     <AiOutlinePlusCircle className="text-white tex-3" />
                     <span className="text-white  font-semibold">Hire Me</span>
                   </div>
-                  <div className="border-neutral-300 dark:border-neutral-700/50 shadow-md border  w-fit h-8 px-2 rounded-md flex items-center gap-x-2 ">
-                    <FiCopy className="" />
-                    <span className="text-neutral-700 dark:text-white  font-semibold">
-                      Copy Email
-                    </span>
-                  </div>
+                  <EmailCopyButton />
                 </div>
               </div>
               <div className="border text-center flex md:justify-center border-neutral-200 dark:border-neutral-700 dark:bg-[#2C2C2C] w-fit md:order-1 order-1 rounded-full p-3 ">
