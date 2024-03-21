@@ -33,7 +33,7 @@ const Page = () => {
             }}
             className="text-neutral-700 text-lg my-7 leading-8 font-InterRe dark:text-[#C0C0C0]"
           >
-            Hello, I'm Eddie, a dedicated software developer based in Perth, Western Australia, 
+            Hello, I'm a dedicated software developer based in Perth, Western Australia, 
             with over two years of professional experience. For me, software development is more 
             than just a job—it's a craft that I passionately pursue, constantly striving to enhance
             my skills and create exceptional solutions. My journey in software development is driven 
