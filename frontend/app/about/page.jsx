@@ -33,12 +33,14 @@ const Page = () => {
             }}
             className="text-neutral-700 text-lg my-7 leading-8 font-InterRe dark:text-[#C0C0C0]"
           >
-            I'm Eddie, a a software developer with over 2 years of
-            experience, currently residing in Perth, Western Australia. I have a deep
-            passion for crafting purposeful interfaces and products. My main
-            goal is to bridge the divide between people and technology,
-            transforming intricate challenges into meaningful and seamless
-            experiences.
+            Hello, I'm Eddie, a dedicated software developer based in Perth, Western Australia, 
+            with over two years of professional experience. For me, software development is more 
+            than just a job—it's a craft that I passionately pursue, constantly striving to enhance
+            my skills and create exceptional solutions. My journey in software development is driven 
+            by a deep-seated desire to bridge the gap between people and technology. I firmly believe 
+            in transforming complex challenges into seamless experiences that positively impact 
+            users' lives. Whether it's through elegant code architecture or intuitive user interfaces,
+            I aim to deliver meaningful solutions that exceed expectations.
           </motion.p>
         </div>
 
@@ -78,10 +80,13 @@ const Page = () => {
             }}
             className="text-neutral-700 text-lg my-7 leading-8 font-InterRe dark:text-[#C0C0C0]"
           >
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-            Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
-            Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            My consulting experience at Deloitte's Enterprise Technology 
+            and Performance division has equipped me with a diverse skill
+            set and a deep understanding of complex technological challenges. 
+            From spearheading automation testing initiatives to driving 
+            full-stack development projects and tackling intricate data
+            migration/analytics tasks, I've navigated a broad spectrum
+            of projects with precision and expertise.
           </motion.p>
 
           <motion.p
@@ -93,10 +98,29 @@ const Page = () => {
             }}
             className="text-neutral-700 text-lg my-7 leading-8 font-InterRe dark:text-[#C0C0C0]"
           >
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-            Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
-            Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            In automation testing, I've led teams in implementing robust testing 
+            frameworks and methodologies, ensuring the reliability and efficiency
+            of software solutions. My hands-on involvement in full-stack development
+            projects has seen me architecting and developing scalable applications
+            that seamlessly integrate front-end and back-end functionalities,
+            delivering unparalleled user experiences.
+          </motion.p>
+
+          <motion.p
+            initial={{ y: 100, opacity: 0 }}
+            whileInView={{
+              y: 0,
+              opacity: 1,
+              transition: { duration: 0.4, delay: 0.5 },
+            }}
+            className="text-neutral-700 text-lg my-7 leading-8 font-InterRe dark:text-[#C0C0C0]"
+          >
+            Moreover, my proficiency in data migration and analytics has been
+            instrumental in enabling organizations to harness the power of data,
+            extracting valuable insights and driving informed decision-making processes.
+            I'm eager to continue my growth as a developer and contribute my expertise
+            to innovative projects that drive meaningful impact.
+            Let's collaborate and transform ideas into reality.
           </motion.p>
 
           <motion.h1

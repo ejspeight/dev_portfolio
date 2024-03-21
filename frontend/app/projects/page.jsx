@@ -19,8 +19,9 @@ const Page = () => {
             My Work
           </h1>
           <p className="text-neutral-700 text-base my-7 leading-8 font-InterRe dark:text-[#C0C0C0]">
-            Discover my portfolio, where purposeful interfaces meet captivating
-            design. My work strives to enhance experiences and inspire.
+          Explore my portfolio, where purposeful interfaces intersect with clean, elegant design.
+          My mission is to craft simplistic yet impactful systems and applications that facilitate
+          meaningful connections between individuals and technology, ultimately contributing to the betterment of humanity.
           </p>
         </div>
 
@@ -32,8 +33,9 @@ const Page = () => {
           </h1>
 
           <p className="text-neutral-700 text-base my-7 leading-8 font-InterRe dark:text-[#C0C0C0]">
-            Some of the digital products that I worked on as side projects,
-            explore them now
+            Delve into my posts, where I discuss real-world challenges 
+            I've encountered, insights gained, and solutions devised in my
+            journey as a developer.
           </p>
         </div>
 
