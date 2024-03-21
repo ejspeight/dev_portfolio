@@ -1,6 +1,5 @@
 "use client";
 
-import { FiCopy } from "react-icons/fi";
 import { AiOutlinePlusCircle } from "react-icons/ai";
 import Link from "next/link";
 import { motion } from "framer-motion";
@@ -66,10 +65,11 @@ export default function Home() {
                 </motion.p>
 
                 <div className="flex items-center gap-x-2 mt-6 ">
-                  <div className="bg-black dark:bg-[#373737] w-fit shadow-md  px-2 rounded-md flex items-center gap-x-2 py-1">
+                {/* Commenting this button out, have no use for it yet. Could use in the future. */}
+                  {/* <div className="bg-black dark:bg-[#373737] w-fit shadow-md  px-2 rounded-md flex items-center gap-x-2 py-1">
                     <AiOutlinePlusCircle className="text-white tex-3" />
                     <span className="text-white  font-semibold">Hire Me</span>
-                  </div>
+                  </div> */} 
                   <EmailCopyButton />
                 </div>
               </div>

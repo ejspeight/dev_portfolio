@@ -2,7 +2,7 @@ import { FaLinkedinIn } from 'react-icons/fa';
 import { AiFillGithub } from "react-icons/ai";
 import { SiInstagram } from "react-icons/si";
 import { AiOutlinePlusCircle } from "react-icons/ai";
-import { FiCopy } from "react-icons/fi";
+import EmailCopyButton from './EmailCopyButton';
 
 const Footer = () => {
   return (
@@ -19,16 +19,12 @@ const Footer = () => {
 
             <div class="">
                 <div class="flex items-center gap-x-4 justify-center mt-6">
-                    <div class="bg-black dark:bg-[#373737] w-fit shadow-md px-2 rounded-md flex items-center gap-x-2 py-1">
+                    {/* Commenting this button out, have no use for it yet. Could use in the future. */}
+                    {/* <div class="bg-black dark:bg-[#373737] w-fit shadow-md px-2 rounded-md flex items-center gap-x-2 py-1">
                         <AiOutlinePlusCircle class="text-white text-3" />
                         <span class="text-white font-semibold">Hire Me</span>
-                    </div>
-                    <div class="border-neutral-300 shadow-md border dark:border-neutral-700 w-fit h-8 px-2 rounded-md flex items-center gap-x-2">
-                        <FiCopy class="" />
-                        <span class="text-neutral-700 dark:text-white font-semibold">
-                            Copy Email
-                        </span>
-                    </div>
+                    </div> */}
+                    <EmailCopyButton  />
                 </div>
             </div>
         </div>
@@ -45,9 +41,9 @@ const Footer = () => {
                     <a href="https://github.com/ejspeight" target="_blank" class="border-neutral-300 bg-white dark:bg-[#373737] dark:border-none shadow-md drop-shadow-md border w-9 h-9 px-2 rounded-full flex items-center justify-center gap-x-1" aria-label="Github">
                         <AiFillGithub class="text-neutral-500 dark:text-white" />
                     </a>
-                    <div href="https://www.instagram.com/edwahdoh" target="_blank" class="border-neutral-300 bg-white shadow-md drop-shadow-md border dark:bg-[#373737] dark:border-none w-9 h-9 px-2 rounded-full flex items-center justify-center gap-x-1">
-                        <SiInstagram class="text-neutral-500 dark:text-white" aria-label="Instagram" />
-                    </div>
+                    <a href="https://www.instagram.com/edwahdoh" target="_blank" class="border-neutral-300 bg-white shadow-md drop-shadow-md border dark:bg-[#373737] dark:border-none w-9 h-9 px-2 rounded-full flex items-center justify-center gap-x-1" aria-label="Instagram">
+                        <SiInstagram class="text-neutral-500 dark:text-white" />
+                    </a>
                     <a href="https://www.linkedin.com/in/edward-speight" target="_blank" class="border-neutral-300 bg-white shadow-md drop-shadow-md border dark:bg-[#373737] dark:border-none w-9 h-9 px-2 rounded-full flex items-center justify-center gap-x-1" aria-label="LinkedIn">
                         <FaLinkedinIn class="text-neutral-500 dark:text-white" />
                     </a>
