@@ -1,7 +1,7 @@
 import { FaLinkedinIn } from 'react-icons/fa';
 import { AiFillGithub } from "react-icons/ai";
 import { SiInstagram } from "react-icons/si";
-import { AiOutlinePlusCircle } from "react-icons/ai";
+// import { AiOutlinePlusCircle } from "react-icons/ai";
 import EmailCopyButton from './EmailCopyButton';
 
 const Footer = () => {
@@ -57,7 +57,7 @@ const Footer = () => {
                     © 2023 Eddie Speight
                 </span>
                 <p class="text-neutral-500">
-                    By <span class="hover:underline hover:text-neutral-400 text-neutral-700 dark:text-neutral-300">EdDev</span>
+                    By <span class="hover:underline hover:text-neutral-400 text-neutral-700 dark:text-neutral-300">Edwahdoh</span>
                 </p>
             </div>
         </div>

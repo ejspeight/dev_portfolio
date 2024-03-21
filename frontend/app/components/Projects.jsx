@@ -6,6 +6,7 @@ import { FiArrowRight} from "react-icons/fi";
 
 
 const Projects = () => {
+
     const [projects, setProjects] = useState([]);
     // const [loading, setLoading] = useState(true);
     // const [error, setError] = useState(null);
@@ -19,17 +20,19 @@ const Projects = () => {
         }
     };
 
-    const getLanguages = async () => {
-        try {
-            const response = await axios.get(`https://api.github.com/repos/ejspeight/dev_portfolio/languages`);
-            console.log('Launguages:', response)
-            return response.data
-        } catch (error) {
-            throw error;
-        }
-    };
+    // Commenting out below for now - will add to show github project laungages in card in the future.
 
-    getLanguages();
+    // const getLanguages = async () => {
+    //     try {
+    //         const response = await axios.get(`https://api.github.com/repos/ejspeight/dev_portfolio/languages`);
+    //         console.log('Launguages:', response)
+    //         return response.data
+    //     } catch (error) {
+    //         throw error;
+    //     }
+    // };
+
+    // getLanguages();
 
     useEffect(() => {
         const fetchData = async () => {
