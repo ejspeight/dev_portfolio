@@ -45,7 +45,7 @@ const Footer = () => {
                     <a href="https://github.com/ejspeight" target="_blank" class="border-neutral-300 bg-white dark:bg-[#373737] dark:border-none shadow-md drop-shadow-md border w-9 h-9 px-2 rounded-full flex items-center justify-center gap-x-1" aria-label="Github">
                         <AiFillGithub class="text-neutral-500 dark:text-white" />
                     </a>
-                    <div class="border-neutral-300 bg-white shadow-md drop-shadow-md border dark:bg-[#373737] dark:border-none w-9 h-9 px-2 rounded-full flex items-center justify-center gap-x-1">
+                    <div href="https://www.instagram.com/edwahdoh" target="_blank" class="border-neutral-300 bg-white shadow-md drop-shadow-md border dark:bg-[#373737] dark:border-none w-9 h-9 px-2 rounded-full flex items-center justify-center gap-x-1">
                         <SiInstagram class="text-neutral-500 dark:text-white" aria-label="Instagram" />
                     </div>
                     <a href="https://www.linkedin.com/in/edward-speight" target="_blank" class="border-neutral-300 bg-white shadow-md drop-shadow-md border dark:bg-[#373737] dark:border-none w-9 h-9 px-2 rounded-full flex items-center justify-center gap-x-1" aria-label="LinkedIn">
