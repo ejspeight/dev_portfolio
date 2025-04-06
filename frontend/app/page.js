@@ -47,7 +47,7 @@ export default function Home() {
             <div className="  flex-col md:flex-row   my-16 flex items-center md:justify-between">
               <div className=" sm:order-2   max-md:mt-10 flex md:block md:flex-row items-center  flex-col md:order-1 order-2">
                 <h1 className="text-4xl text-neutral-700 font-InterBo dark:text-white">
-                  I'm Eddie
+                  Eddie
                 </h1>
 
                 <motion.p
@@ -60,8 +60,7 @@ export default function Home() {
                   }}
                   className="  text-lg max-md:text-center  my-3 text-neutral-500 dark:text-neutral-300"
                 >
-                  Software developer from Perth, Australia. <br /> Currently working
-                  at Deloitte.{" "}
+                  Software developer<br /> Perth, Australia {" "}
                 </motion.p>
 
                 <div className="flex items-center gap-x-2 mt-6 ">
@@ -73,20 +72,21 @@ export default function Home() {
                   <EmailCopyButton />
                 </div>
               </div>
-              <div className="border text-center flex md:justify-center border-neutral-200 dark:border-neutral-700 dark:bg-[#2C2C2C] w-fit md:order-1 order-1 rounded-full p-3 ">
-                <motion.img
-                  initial={{ x: 100, opacity: 0, filter: "blur(50px)" }}
-                  animate={{
-                    x: 0,
-                    opacity: 1,
-                    filter: "blur(0px)",
-                    transition: { duration: 0.4, delay: 0.5 },
-                  }}
-                  className="w-32 h-32 flex object-cover   rounded-full "
-                  src="/img/ESpeight.jpg"
-                  alt=""
-                />
-              </div>
+                <div className="border text-center flex md:justify-center border-neutral-200 dark:border-neutral-700 dark:bg-[#2C2C2C] w-fit md:order-1 order-1 rounded-full">
+                  <motion.img
+                    initial={{ x: 100, opacity: 0, filter: "blur(50px)" }}
+                    animate={{
+                      x: 0,
+                      opacity: 1,
+                      filter: "blur(0px)",
+                      transition: { duration: 0.4, delay: 0.5 },
+                    }}
+                    className="w-32 h-32 object-cover rounded-full"
+                    src="/img/eddie_profile.webp"
+                    alt=""
+                  />
+                </div>
+
             </div>
           </div>
 
