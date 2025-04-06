@@ -54,10 +54,22 @@ cd dev_portfolio\backend
 
 2. Install dependencies:
 
+For Mac you will need to create a virtual environment (only once):
+
+```console
+python3 -m venv venv
+```
+
+Activate the virtual environment:
+
+```console
+source venv/bin/activate
+```
+Install
+
 ```console
 pip install -r requirements.txt
 ```
-
 
 ## Development
 
